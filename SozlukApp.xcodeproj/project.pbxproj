@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A028D3F35FB68863F8A65D /* Pods_SozlukApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DECFBE3E9B6EF34DCD705CF /* Pods_SozlukApp.framework */; };
+		1A0D13CFC04A946D1CD2D6C3 /* Pods_SozlukAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011B453596A111D9B9C44BA6 /* Pods_SozlukAppTests.framework */; };
+		3C1E75682819E7D600475581 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C1E75672819E7D600475581 /* GoogleService-Info.plist */; };
+		3C1E756B2819EEF000475581 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E756A2819EEF000475581 /* DataServices.swift */; };
+		3C1E756E2819F20B00475581 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E756D2819F20B00475581 /* Common.swift */; };
+		3C1E75702819F2FA00475581 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E756F2819F2FA00475581 /* FeedVC.swift */; };
+		3C1E75722819F34400475581 /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E75712819F34400475581 /* UploadVC.swift */; };
+		3C1E75742819F36E00475581 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E75732819F36E00475581 /* SignInVC.swift */; };
+		3C1E75762819F39600475581 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E75752819F39600475581 /* SignUpVC.swift */; };
+		3C1E75782819F43200475581 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E75772819F43200475581 /* FeedTableViewCell.swift */; };
+		3C90076E282B15E200CECF98 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90076D282B15E200CECF98 /* ItemModel.swift */; };
+		3CC658BD281789DC00DCECD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC658BC281789DC00DCECD1 /* AppDelegate.swift */; };
+		3CC658BF281789DC00DCECD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC658BE281789DC00DCECD1 /* SceneDelegate.swift */; };
+		3CC658C1281789DC00DCECD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC658C0281789DC00DCECD1 /* ViewController.swift */; };
+		3CC658C4281789DC00DCECD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC658C2281789DC00DCECD1 /* Main.storyboard */; };
+		3CC658C6281789DF00DCECD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC658C5281789DF00DCECD1 /* Assets.xcassets */; };
+		3CC658C9281789DF00DCECD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC658C7281789DF00DCECD1 /* LaunchScreen.storyboard */; };
+		3CC658D4281789DF00DCECD1 /* SozlukAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC658D3281789DF00DCECD1 /* SozlukAppTests.swift */; };
+		3CC658DE281789DF00DCECD1 /* SozlukAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC658DD281789DF00DCECD1 /* SozlukAppUITests.swift */; };
+		3CC658E0281789DF00DCECD1 /* SozlukAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC658DF281789DF00DCECD1 /* SozlukAppUITestsLaunchTests.swift */; };
+		F7FD93B9C4C25AA461EB0ABF /* Pods_SozlukApp_SozlukAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504988485C0AC7AE98FC363D /* Pods_SozlukApp_SozlukAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CC658D0281789DF00DCECD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CC658B1281789DC00DCECD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CC658B8281789DC00DCECD1;
+			remoteInfo = SozlukApp;
+		};
+		3CC658DA281789DF00DCECD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CC658B1281789DC00DCECD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CC658B8281789DC00DCECD1;
+			remoteInfo = SozlukApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011B453596A111D9B9C44BA6 /* Pods_SozlukAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SozlukAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1E75672819E7D600475581 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3C1E756A2819EEF000475581 /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		3C1E756D2819F20B00475581 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		3C1E756F2819F2FA00475581 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		3C1E75712819F34400475581 /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
+		3C1E75732819F36E00475581 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		3C1E75752819F39600475581 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		3C1E75772819F43200475581 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		3C90076D282B15E200CECF98 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		3CC658B9281789DC00DCECD1 /* SozlukApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SozlukApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC658BC281789DC00DCECD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CC658BE281789DC00DCECD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3CC658C0281789DC00DCECD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CC658C3281789DC00DCECD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CC658C5281789DF00DCECD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CC658C8281789DF00DCECD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CC658CA281789DF00DCECD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CC658CF281789DF00DCECD1 /* SozlukAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SozlukAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC658D3281789DF00DCECD1 /* SozlukAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SozlukAppTests.swift; sourceTree = "<group>"; };
+		3CC658D9281789DF00DCECD1 /* SozlukAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SozlukAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC658DD281789DF00DCECD1 /* SozlukAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SozlukAppUITests.swift; sourceTree = "<group>"; };
+		3CC658DF281789DF00DCECD1 /* SozlukAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SozlukAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4DECFBE3E9B6EF34DCD705CF /* Pods_SozlukApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SozlukApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		504988485C0AC7AE98FC363D /* Pods_SozlukApp_SozlukAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SozlukApp_SozlukAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FEE8E4FAB95082AE816677A /* Pods-SozlukApp-SozlukAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SozlukApp-SozlukAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SozlukApp-SozlukAppUITests/Pods-SozlukApp-SozlukAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7ED7A1D1659C2A74A4D46AE9 /* Pods-SozlukApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SozlukApp.debug.xcconfig"; path = "Target Support Files/Pods-SozlukApp/Pods-SozlukApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8AC040576E98D55702E5E949 /* Pods-SozlukApp-SozlukAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SozlukApp-SozlukAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SozlukApp-SozlukAppUITests/Pods-SozlukApp-SozlukAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90EB08AC3FEB47477466BA05 /* Pods-SozlukApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SozlukApp.release.xcconfig"; path = "Target Support Files/Pods-SozlukApp/Pods-SozlukApp.release.xcconfig"; sourceTree = "<group>"; };
+		A76A042BB1144E3A31502ACA /* Pods-SozlukAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SozlukAppTests.release.xcconfig"; path = "Target Support Files/Pods-SozlukAppTests/Pods-SozlukAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2A637039D3330F46DE2CD04 /* Pods-SozlukAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SozlukAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SozlukAppTests/Pods-SozlukAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CC658B6281789DC00DCECD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A028D3F35FB68863F8A65D /* Pods_SozlukApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC658CC281789DF00DCECD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0D13CFC04A946D1CD2D6C3 /* Pods_SozlukAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC658D6281789DF00DCECD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FD93B9C4C25AA461EB0ABF /* Pods_SozlukApp_SozlukAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C1E75642819E19A00475581 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3CC658C2281789DC00DCECD1 /* Main.storyboard */,
+				3CC658C7281789DF00DCECD1 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3C1E75652819E1D400475581 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3CC658C0281789DC00DCECD1 /* ViewController.swift */,
+				3C1E756F2819F2FA00475581 /* FeedVC.swift */,
+				3C1E75772819F43200475581 /* FeedTableViewCell.swift */,
+				3C1E75712819F34400475581 /* UploadVC.swift */,
+				3C1E75732819F36E00475581 /* SignInVC.swift */,
+				3C1E75752819F39600475581 /* SignUpVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3C1E75662819E1F600475581 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				3CC658BC281789DC00DCECD1 /* AppDelegate.swift */,
+				3CC658BE281789DC00DCECD1 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		3C1E75692819EEC100475581 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3C1E756A2819EEF000475581 /* DataServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3C1E756C2819F1E900475581 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3C1E756D2819F20B00475581 /* Common.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3C90076C282B15AE00CECF98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C90076D282B15E200CECF98 /* ItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CC658B0281789DC00DCECD1 = {
+			isa = PBXGroup;
+			children = (
+				3CC658BB281789DC00DCECD1 /* SozlukApp */,
+				3CC658D2281789DF00DCECD1 /* SozlukAppTests */,
+				3CC658DC281789DF00DCECD1 /* SozlukAppUITests */,
+				3CC658BA281789DC00DCECD1 /* Products */,
+				F455B55A7312B2780310E34C /* Pods */,
+				835078DF9453BD5FB706AF56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CC658BA281789DC00DCECD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CC658B9281789DC00DCECD1 /* SozlukApp.app */,
+				3CC658CF281789DF00DCECD1 /* SozlukAppTests.xctest */,
+				3CC658D9281789DF00DCECD1 /* SozlukAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CC658BB281789DC00DCECD1 /* SozlukApp */ = {
+			isa = PBXGroup;
+			children = (
+				3C90076C282B15AE00CECF98 /* Model */,
+				3C1E756C2819F1E900475581 /* Helpers */,
+				3C1E75692819EEC100475581 /* Services */,
+				3C1E75662819E1F600475581 /* Delegates */,
+				3C1E75652819E1D400475581 /* Controllers */,
+				3C1E75642819E19A00475581 /* Views */,
+				3CC658C5281789DF00DCECD1 /* Assets.xcassets */,
+				3CC658CA281789DF00DCECD1 /* Info.plist */,
+				3C1E75672819E7D600475581 /* GoogleService-Info.plist */,
+			);
+			path = SozlukApp;
+			sourceTree = "<group>";
+		};
+		3CC658D2281789DF00DCECD1 /* SozlukAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CC658D3281789DF00DCECD1 /* SozlukAppTests.swift */,
+			);
+			path = SozlukAppTests;
+			sourceTree = "<group>";
+		};
+		3CC658DC281789DF00DCECD1 /* SozlukAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CC658DD281789DF00DCECD1 /* SozlukAppUITests.swift */,
+				3CC658DF281789DF00DCECD1 /* SozlukAppUITestsLaunchTests.swift */,
+			);
+			path = SozlukAppUITests;
+			sourceTree = "<group>";
+		};
+		835078DF9453BD5FB706AF56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DECFBE3E9B6EF34DCD705CF /* Pods_SozlukApp.framework */,
+				504988485C0AC7AE98FC363D /* Pods_SozlukApp_SozlukAppUITests.framework */,
+				011B453596A111D9B9C44BA6 /* Pods_SozlukAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F455B55A7312B2780310E34C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ED7A1D1659C2A74A4D46AE9 /* Pods-SozlukApp.debug.xcconfig */,
+				90EB08AC3FEB47477466BA05 /* Pods-SozlukApp.release.xcconfig */,
+				8AC040576E98D55702E5E949 /* Pods-SozlukApp-SozlukAppUITests.debug.xcconfig */,
+				6FEE8E4FAB95082AE816677A /* Pods-SozlukApp-SozlukAppUITests.release.xcconfig */,
+				F2A637039D3330F46DE2CD04 /* Pods-SozlukAppTests.debug.xcconfig */,
+				A76A042BB1144E3A31502ACA /* Pods-SozlukAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CC658B8281789DC00DCECD1 /* SozlukApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC658E3281789DF00DCECD1 /* Build configuration list for PBXNativeTarget "SozlukApp" */;
+			buildPhases = (
+				B889C9D4B8711E246727C5AB /* [CP] Check Pods Manifest.lock */,
+				3CC658B5281789DC00DCECD1 /* Sources */,
+				3CC658B6281789DC00DCECD1 /* Frameworks */,
+				3CC658B7281789DC00DCECD1 /* Resources */,
+				5FD8AFD1BA5F66CBCFC7C422 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SozlukApp;
+			productName = SozlukApp;
+			productReference = 3CC658B9281789DC00DCECD1 /* SozlukApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CC658CE281789DF00DCECD1 /* SozlukAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC658E6281789DF00DCECD1 /* Build configuration list for PBXNativeTarget "SozlukAppTests" */;
+			buildPhases = (
+				D552DD8BA0E49E0D02AAB789 /* [CP] Check Pods Manifest.lock */,
+				3CC658CB281789DF00DCECD1 /* Sources */,
+				3CC658CC281789DF00DCECD1 /* Frameworks */,
+				3CC658CD281789DF00DCECD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CC658D1281789DF00DCECD1 /* PBXTargetDependency */,
+			);
+			name = SozlukAppTests;
+			productName = SozlukAppTests;
+			productReference = 3CC658CF281789DF00DCECD1 /* SozlukAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CC658D8281789DF00DCECD1 /* SozlukAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC658E9281789DF00DCECD1 /* Build configuration list for PBXNativeTarget "SozlukAppUITests" */;
+			buildPhases = (
+				874F8FA78734EEF2DF0CFEAE /* [CP] Check Pods Manifest.lock */,
+				3CC658D5281789DF00DCECD1 /* Sources */,
+				3CC658D6281789DF00DCECD1 /* Frameworks */,
+				3CC658D7281789DF00DCECD1 /* Resources */,
+				927AF26406C763290CD64072 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CC658DB281789DF00DCECD1 /* PBXTargetDependency */,
+			);
+			name = SozlukAppUITests;
+			productName = SozlukAppUITests;
+			productReference = 3CC658D9281789DF00DCECD1 /* SozlukAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CC658B1281789DC00DCECD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3CC658B8281789DC00DCECD1 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					3CC658CE281789DF00DCECD1 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3CC658B8281789DC00DCECD1;
+					};
+					3CC658D8281789DF00DCECD1 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3CC658B8281789DC00DCECD1;
+					};
+				};
+			};
+			buildConfigurationList = 3CC658B4281789DC00DCECD1 /* Build configuration list for PBXProject "SozlukApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CC658B0281789DC00DCECD1;
+			productRefGroup = 3CC658BA281789DC00DCECD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CC658B8281789DC00DCECD1 /* SozlukApp */,
+				3CC658CE281789DF00DCECD1 /* SozlukAppTests */,
+				3CC658D8281789DF00DCECD1 /* SozlukAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CC658B7281789DC00DCECD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC658C9281789DF00DCECD1 /* LaunchScreen.storyboard in Resources */,
+				3C1E75682819E7D600475581 /* GoogleService-Info.plist in Resources */,
+				3CC658C6281789DF00DCECD1 /* Assets.xcassets in Resources */,
+				3CC658C4281789DC00DCECD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC658CD281789DF00DCECD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC658D7281789DF00DCECD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FD8AFD1BA5F66CBCFC7C422 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SozlukApp/Pods-SozlukApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SozlukApp/Pods-SozlukApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SozlukApp/Pods-SozlukApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		874F8FA78734EEF2DF0CFEAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SozlukApp-SozlukAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		927AF26406C763290CD64072 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SozlukApp-SozlukAppUITests/Pods-SozlukApp-SozlukAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SozlukApp-SozlukAppUITests/Pods-SozlukApp-SozlukAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SozlukApp-SozlukAppUITests/Pods-SozlukApp-SozlukAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B889C9D4B8711E246727C5AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SozlukApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D552DD8BA0E49E0D02AAB789 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SozlukAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CC658B5281789DC00DCECD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1E75702819F2FA00475581 /* FeedVC.swift in Sources */,
+				3C1E75762819F39600475581 /* SignUpVC.swift in Sources */,
+				3CC658C1281789DC00DCECD1 /* ViewController.swift in Sources */,
+				3C1E75742819F36E00475581 /* SignInVC.swift in Sources */,
+				3C90076E282B15E200CECF98 /* ItemModel.swift in Sources */,
+				3CC658BD281789DC00DCECD1 /* AppDelegate.swift in Sources */,
+				3CC658BF281789DC00DCECD1 /* SceneDelegate.swift in Sources */,
+				3C1E756E2819F20B00475581 /* Common.swift in Sources */,
+				3C1E756B2819EEF000475581 /* DataServices.swift in Sources */,
+				3C1E75722819F34400475581 /* UploadVC.swift in Sources */,
+				3C1E75782819F43200475581 /* FeedTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC658CB281789DF00DCECD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC658D4281789DF00DCECD1 /* SozlukAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC658D5281789DF00DCECD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC658E0281789DF00DCECD1 /* SozlukAppUITestsLaunchTests.swift in Sources */,
+				3CC658DE281789DF00DCECD1 /* SozlukAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CC658D1281789DF00DCECD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CC658B8281789DC00DCECD1 /* SozlukApp */;
+			targetProxy = 3CC658D0281789DF00DCECD1 /* PBXContainerItemProxy */;
+		};
+		3CC658DB281789DF00DCECD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CC658B8281789DC00DCECD1 /* SozlukApp */;
+			targetProxy = 3CC658DA281789DF00DCECD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CC658C2281789DC00DCECD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CC658C3281789DC00DCECD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CC658C7281789DF00DCECD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CC658C8281789DF00DCECD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CC658E1281789DF00DCECD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CC658E2281789DF00DCECD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CC658E4281789DF00DCECD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED7A1D1659C2A74A4D46AE9 /* Pods-SozlukApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SozlukApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithirem.SozlukApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CC658E5281789DF00DCECD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90EB08AC3FEB47477466BA05 /* Pods-SozlukApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SozlukApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithirem.SozlukApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CC658E7281789DF00DCECD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2A637039D3330F46DE2CD04 /* Pods-SozlukAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithirem.SozlukAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SozlukApp.app/SozlukApp";
+			};
+			name = Debug;
+		};
+		3CC658E8281789DF00DCECD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A76A042BB1144E3A31502ACA /* Pods-SozlukAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithirem.SozlukAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SozlukApp.app/SozlukApp";
+			};
+			name = Release;
+		};
+		3CC658EA281789DF00DCECD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC040576E98D55702E5E949 /* Pods-SozlukApp-SozlukAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithirem.SozlukAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SozlukApp;
+			};
+			name = Debug;
+		};
+		3CC658EB281789DF00DCECD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FEE8E4FAB95082AE816677A /* Pods-SozlukApp-SozlukAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithirem.SozlukAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SozlukApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CC658B4281789DC00DCECD1 /* Build configuration list for PBXProject "SozlukApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC658E1281789DF00DCECD1 /* Debug */,
+				3CC658E2281789DF00DCECD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC658E3281789DF00DCECD1 /* Build configuration list for PBXNativeTarget "SozlukApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC658E4281789DF00DCECD1 /* Debug */,
+				3CC658E5281789DF00DCECD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC658E6281789DF00DCECD1 /* Build configuration list for PBXNativeTarget "SozlukAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC658E7281789DF00DCECD1 /* Debug */,
+				3CC658E8281789DF00DCECD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC658E9281789DF00DCECD1 /* Build configuration list for PBXNativeTarget "SozlukAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC658EA281789DF00DCECD1 /* Debug */,
+				3CC658EB281789DF00DCECD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CC658B1281789DC00DCECD1 /* Project object */;
+}

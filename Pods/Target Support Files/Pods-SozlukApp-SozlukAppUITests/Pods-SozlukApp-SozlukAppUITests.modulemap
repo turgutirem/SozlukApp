@@ -1,0 +1,6 @@
+framework module Pods_SozlukApp_SozlukAppUITests {
+  umbrella header "Pods-SozlukApp-SozlukAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
